@@ -17,7 +17,7 @@ gulp.task('browser-sync', ['sass'], function () {
     bs.init({
         server: {
             baseDir: "./",
-            index: "ImageFlip.html"
+            index: "3partProject.html"
         }
     });
 });
