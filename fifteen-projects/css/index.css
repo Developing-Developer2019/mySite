@@ -1,0 +1,8 @@
+h1 {
+  color: #b90;
+  text-decoration: underline;
+  transition: all 2000ms ease-in; }
+
+body {
+  background: #222;
+  color: #b90; }
