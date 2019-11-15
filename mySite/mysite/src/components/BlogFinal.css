@@ -1,26 +1,25 @@
 body {
-    font-family: 'Nunito', sans-serif;
     margin: 0 0;
     height: 100%;
     background-color: #e5e5e5;
+    font-family: 'Raleway', sans-serif;
+}
+/*------------------------------------------------------------nav--------------------------------------------*/
+.navbar{
+    padding:0%;
 }
 
-/*-------------------------------------------------------------nav--------------------------------------------*/
+/* .row{
+    flex-wrap: nowrap;
+} */
 
 .topnav {
-    max-width: 100%;
     height: auto;
-    margin: auto;
     padding: 0 0;
-    position: fixed;
+    /* position: fixed; */
     transition: top 0.3s;
     overflow: hidden;
 }
-
-.topnav .icon {
-    display: none;
-}
-
 ul {
     margin: 0;
     padding: 0;
@@ -30,7 +29,7 @@ ul {
     float: left;
     background-color: #e5e5e5;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 10px;
     text-decoration: none;
     font-size: 17px;
     font-weight: 700;
@@ -43,10 +42,10 @@ ul {
     color: #23374d;
 }
 
-.topnav a {
-    padding: 14px 16px;
+li a {
+    display: flex;
+    padding: 20px 20px;
     color: #50657a;
-    text-decoration: none;
 }
 
 .topnav a:hover {
@@ -59,61 +58,42 @@ ul {
 
 .welcome-image {
     width: 100%;
-    z-index: 1;
-    border-bottom: 3px #23374d solid;
+    border-top: 3px #23374d solid;
+    border-bottom: 2px #23374d solid;
 }
 
 /*---------------------------------------------About me--------------------------------------------------*/
-.aboutPic{
-    margin-top: 6%;
-    float: left;
-    width: 30%;
+#anchorAbout {
+    margin-top: 100px;
+    color: #23374d;
+    background-color: #e5e5e5;
+}
+
+/* .profilePic {
+    border-radius: 50%;
+    width: 70%;
+    margin-bottom: 20%;
+} */
+.profileArea{
     display: flex;
     justify-content: center;
-    border: 1px red solid;
-}
-.aboutList {
-    padding-left: 60px;
-    width: 30%;
-    text-align: unset;
-    border: 1px red solid;
-}
-
-
-.aboutDiv {
-    color: #23374d;
-    border-bottom: 3px #23374d solid;
-}
-
-.profilePic {
-    border-radius: 50%;
-    width: 50%;
 }
 
 .aboutHeader {
     text-align: center;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 2.5rem;
 }
 
-.columnAbout{
-    float: right;
-    display: flex;
-    align-content: center;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-    border: blue 1px solid;
+.aboutList{
+    padding-bottom: 40px;
 }
 
-aside, section {
-    display:inline-block;
-    vertical-align: top;
-    border: 1px dotted blue;
-    word-wrap: break-word;
-  }
-
 /*---------------------------------------------Blog and Projects--------------------------------------*/
+#projectImage{
+    width: 100%;
+    padding-top:5px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -122,14 +102,27 @@ aside, section {
     clear: both;
 }
 
-.whiteDiv {
-    background-image: url("../../src/images/WelcomeBackground2.jpg");
+p{
+    text-align: justify;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+#resumeAnchor{
+    display: flex;
+    justify-content: center;
+}
+
+
+#section2{
+    background-image: url("../assets/WelcomeBackground2.jpg");
+    border-top: 2px #23374d solid;
+    border-bottom: 2px #23374d solid;
+}
 /*---------------------------------------------------Contact-----------------------------------------------------*/
 
 .contact-section {
-    border-top: 2px #23374d solid;
     text-align: center;
     background-color: #e5e5e5;
     border-radius: 5px;
@@ -151,11 +144,6 @@ aside, section {
 #contact-picture-area {
     display: flex;
     justify-content: center;
-
-}
-
-* {
-    box-sizing: border-box;
 }
 
 /* Style inputs */
@@ -313,7 +301,7 @@ input[type=submit]:hover {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    /* z-index: 1; */
     padding-top: 100px;
     left: 0;
     top: 0;
