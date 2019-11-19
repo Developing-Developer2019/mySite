@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light</title>
+    <script src="https://kit.fontawesome.com/0126994918.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h1 id="header">This site is based on a lightswitch mechanism!</h1>
+    <i id="button1" class="fas fa-toggle-on">Light Switch</i>
+    <i id="button2" style="color:white;" class="fas fa-toggle-off">Light Switch</i>
+    <p id="p1">Click me to <strong>turn off</strong> the light!</p>    
+
+   <script> 
+        var button = document.getElementById("button1");
+        var paragraph = document.getElementById("p1");
+        var body = document.getElementsByTagName("body");
+        var button2=document.getElementById("button2");
+        var h1= document.getElementById("header");
+                
+        button.addEventListener("click", function(){
+            console.log("Turning the lights off!!");
+            body[0].style.background ="black";
+            paragraph.innerHTML= "Flick the lightswitch to turn the light on/off!";
+            paragraph.style.color="white";
+            h1.style.color="white";          
+        });
+
+        button2.addEventListener("click", function(){
+            body[0].style.background="white";
+            paragraph.style.color="black";
+            h1.style.color="black";
+            console.log("Turning the lights on!!");
+        })
+    
+        // GARBAGE.
+        // var header = document.getElementsByTagName("h1");
+        // header[0].addEventListener("click", function(){
+        //     body[0].style.background ="white";
+        //     alert("You found the light switch.");
+    </script>
+</body>
+</html>
