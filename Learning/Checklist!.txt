@@ -1,0 +1,35 @@
+Checklist:
+
+Learn the basics X
+- Semantic HTML
+- Basic SEO
+- Accessibility
+
+Css Basics X
+- Css Making layouts X
+- Media Queries X
+- Bootstrap X
+- Bulma (Optional)
+- Materialize CSS (Optional)
+- Semantic UI (Optional)
+- BEM
+- OOCSS (Optional)
+- SMACSS (Optional)
+
+JAVASCIPT:
+- Syntax, basic constructs
+- DOM manipulation
+- Learn Fetch api/Ajax
+- ES6 + Modular Javascript
+- Hosting
+- Event bubbling
+- Scope prototype
+- Shadow DOM
+- strict
+- HTTP X
+- DNS
+- How browsers work
+
+- Sass - Pre-processing
+
+
