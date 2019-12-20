@@ -1,0 +1,142 @@
+body {
+  background: url("/a/src/img/hero/2cab9a9ffe180d96b5e4aaa62515a2f5.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.bg-blue {
+  background-color: #1d1d5e !important;
+}
+
+.top-link {
+  transition: all 0.25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3em 3em 0;
+  border-radius: 10px;
+  padding: 0.25em;
+  width: 50px;
+  height: 50px;
+  background-color: #d5d5d5;
+}
+.top-link:hover {
+  background-color: gray;
+}
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+svg {
+  fill: #1d1d5d;
+  width: 24px;
+  height: 12px;
+}
+
+svg:hover {
+  background-color: transparent;
+  fill: white;
+}
+
+/*Text meant only for screen readers.*/
+.screen-reader-text {
+  position: absolute;
+  clip-path: inset(50%);
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  word-wrap: normal !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.screen-reader-text:focus {
+  display: block;
+  top: 5px;
+  left: 5px;
+  z-index: 100000;
+  clip-path: none;
+  background-color: #eee;
+  padding: 15px 23px 14px;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  line-height: normal;
+  color: #444;
+  font-size: 1em;
+  clip: auto !important;
+}
+
+.nav-item a {
+  font-size: 20px;
+  margin-right: 40px;
+  border: 2px solid #d5d5d5;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.nav-item a:hover {
+  background-color: #d5d5d5;
+  color: #1d1d5d !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid #1d1d5d;
+}
+
+/* The hero image */
+.hero_container-image {
+  width: 67vw;
+  opacity: 0.6;
+  border-radius: 5px;
+}
+
+/* Place text in the middle of the image */
+.hero_container-text {
+  font-family: "Allura", cursive;
+  font-size: 6em;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    position: fixed !important;
+    top: 0px;
+    z-index: 1;
+    width: 100vw;
+  }
+
+  .card {
+    height: 100vh;
+  }
+
+  .container_header-imageCSS {
+    position: absolute;
+    top: 14%;
+    margin: auto;
+    width: 92vw;
+    height: auto;
+    opacity: 0.7;
+  }
+}

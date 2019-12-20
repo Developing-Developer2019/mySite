@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+        <link rel="stylesheet" href="/css/form.css">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+
+        <title>Site Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo_form">
+                <div class="logo_form-image">
+                    <img src="img/MBLogo.png" alt="">
+                </div>
+            </div>
+            <div class="form_info">
+                <div class="form_title">
+                    <h1>About you and your site:</h1>
+                </div>
+                <form action="https://formsubmit.co/marvin.brereton@gmail.com"
+                    method="POST">
+                    <div class="form-group">
+                        <label for="FormControl-Fullname">Full Name:</label>
+                        <input type="text" class="form-control"
+                            id="FormControl-Fullname" name="name"
+                            placeholder="What is your name?">
+                    </div>
+                    <div class="form-group">
+                        <label for="FormControl-Email">Email address:</label>
+                        <input type="email" class="form-control"
+                            id="FormControl-Email" name="email"
+                            placeholder="name@example.com" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="FormControl-Email">Contact telephone
+                                    number:</label>
+                                <input type="number" class="form-control"
+                                    id="FormControl-Number" name="Number"
+                                    placeholder="Mobile/Landline" required>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group formRadio">
+                                <label for="FormControlRadio"
+                                    class="form_domain-title"><h5>Best time to
+                                        contact you?</h5></label>
+                                <br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="ContactTime" id="Morning"
+                                        value="Morning">
+                                    <label class="form-check-label" for="AM">Morning</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="ContactTime" id="Afternoon"
+                                        value="Afternoon">
+                                    <label class="form-check-label"
+                                        for="Afternoon">Afternoon</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="ContactTime" id="Evening"
+                                        value="Evening">
+                                    <label class="form-check-label"
+                                        for="Evening">Evening</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group formRadio">
+                                <label for="FormControlRadio"
+                                    class="form_domain-title"><h5>Type of
+                                        website you are after?</h5></label>
+                                <br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="SiteType" id="Portfolio"
+                                        value="Portfolio">
+                                    <label class="form-check-label"
+                                        for="Portfolio">Portfolio</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="SiteType" id="Business"
+                                        value="Business">
+                                    <label class="form-check-label"
+                                        for="Business">Business</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="SiteType" id="Blog" value="Blog">
+                                    <label class="form-check-label" for="Blog">Blog</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="SiteType" id="Image Site"
+                                        value="Image Site">
+                                    <label class="form-check-label" for="Image
+                                        Site">Image Site</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="form-group formRadio">
+                                <label for="FormControlRadio"
+                                    class="form_domain-title"><h5>Do you own
+                                        your own <strong><a
+                                                href="https://www.website.com/beginnerguide/domainnames/8/1/What-is-a-domain-name?.ws"
+                                                target="_blank">Domain?</a></strong></h5></label>
+                                <br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="DomainOptions" id="DomainYes"
+                                        value="Domain Yes">
+                                    <label class="form-check-label"
+                                        for="DomainYes">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="DomainOptions" id="DomainNo"
+                                        value="Domain No">
+                                    <label class="form-check-label"
+                                        for="DomainNo">No</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio"
+                                        name="DomainOptions" id="DomainNotSure"
+                                        value="Domain Not Sure">
+                                    <label class="form-check-label"
+                                        for="DomainNotSure">Not Sure</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <div class="form-group">
+                            <label for="FormControlCompany">If you selected
+                                business, <strong>name of business and
+                                    industry?</strong></label>
+                            <input type="text" class="form-control"
+                                id="FormControlCompany" name="Company name/type"
+                                placeholder="Enter company name / type here.">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <label for="formExtraText"><span class="text-center">Any
+                                specific text you want on your site? I.e
+                                motto/quotes? <strong>( Seperate each
+                                    phrase/line with a comma , )</strong></span></label>
+                        <textarea class="form-control" id="formExtraText"
+                            rows="3" name="Custom Motto's"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="formExtraText"><span class="text-center">Any
+                                specific colours you want on your site? <strong>(
+                                    Seperate each colour with a comma , )</strong></span></label>
+                        <textarea class="form-control" id="formExtraText"
+                            rows="2" name="colors"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="formExtraText"><span class="text-center">Lastly,
+                                if you can, tell me about your site and what
+                                <strong>you want it to do for you.</strong>
+                                (optional but will help me design more to your
+                                liking.)</span></label>
+                        <textarea class="form-control" id="formExtraText"
+                            rows="7" name="ExtraSiteInfo"></textarea>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="submit">
+                                <button class="btn btn-primary" type="submit"
+                                    value="submit">Submit form</button>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="disclaimer">
+                                <label for="disclaimer"><input type="checkbox"
+                                        name="disclaimerCheck"
+                                        value="disclaimerCheck" required> I
+                                    understand and aknowledge that any
+                                    information on this form will be used for
+                                    contact purposes with MBCV only.</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+        <script src="/js/form.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    </body>
+</html>
