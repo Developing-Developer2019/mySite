@@ -1,11 +1,11 @@
 * {
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth;;
+  scroll-behavior: smooth;
 }
 
 body {
-  padding-top: 65px;
+  padding: 65px 0px 0px 0px;
 }
 
 #carouselSettings {
@@ -25,7 +25,7 @@ body {
   border: 1px white solid;
   border-radius: 20px;
   width: 255px;
-  height: 65px;
+  height: 70px;
 }
 
 .nav-item {
@@ -128,18 +128,48 @@ h5 {
   font-size: 1.2em;
 }
 
-#about_me--text{
-    text-align: center;
+#about_me--text {
+  text-align: center;
 }
 
 .services_header {
   text-align: center;
 }
 
+/*============== FOOTER ===================*/
+
+.footer_area {
+  height: 150px;
+  background-color: #003d8a;
+}
+.footer_area-disclaimer {
+  color: white;
+  font-size: 1.5em;
+}
+
+.footer_area-opening {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  border: 1px white solid;
+  border-radius: 10px;
+  width: fit-content;
+  list-style: none;
+}
+
+.footer_area-disclaimer-timeUL {
+  list-style: none !important;
+}
+
+.footer_area-developer {
+  color: white;
+}
+
 @media only screen and (max-width: 414px) {
-    .navbar-brand{ border: transparent !important;
-    }
-    
+  .navbar-brand {
+    border: transparent !important;
+  }
+
   .nav-item {
     border: 2px solid white;
     border-radius: 10px 40px;
