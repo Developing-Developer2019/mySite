@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;;
 }
 
 body {
@@ -32,18 +33,18 @@ body {
   font-size: 1.2em;
   margin: 0px 20px;
   border: 1px solid transparent;
-  width: 120px;
+  width: 150px;
   text-align: center;
 }
 
 .nav-item:hover {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   border: 1px solid white;
   border-radius: 10px;
 }
 
 #hoover {
-  margin-top: -65px;
+  margin-top: 20px;
   margin-bottom: 50px;
 }
 
@@ -57,8 +58,8 @@ body {
 
 .hero_image img {
   position: relative;
-  width: 80vw;
-  margin: 30px 10px 20px 5px;
+  width: 100%;
+  margin: 30px auto 20px auto;
   border-radius: 20px;
 }
 
@@ -127,11 +128,18 @@ h5 {
   font-size: 1.2em;
 }
 
+#about_me--text{
+    text-align: center;
+}
+
 .services_header {
   text-align: center;
 }
 
 @media only screen and (max-width: 414px) {
+    .navbar-brand{ border: transparent !important;
+    }
+    
   .nav-item {
     border: 2px solid white;
     border-radius: 10px 40px;
@@ -140,8 +148,8 @@ h5 {
     width: 80vw;
   }
   .hero_image img {
-    width: 90vw;
-    margin: 40px 5px 10px 5px;
+    width: 100%;
+    margin: 40px auto 10px auto;
     border: 2px solid gray;
   }
   .hero_statement .jumbotron h1 {
@@ -202,8 +210,8 @@ h5 {
   }
   .hero_image img {
     position: relative;
-    width: 90vw;
-    margin: 120px 20px 20px auto;
+    width: 80vw;
+    margin: 120px auto 20px auto;
     border-radius: 20px;
   }
   .about_me-text {
